@@ -4,7 +4,7 @@ You can use this package to make your elements resizable
 ## Install
 
 ```
-npm install reizable-element
+npm install resizable-element
 ```
 
 ## Example
