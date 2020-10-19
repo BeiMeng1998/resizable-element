@@ -1,0 +1,26 @@
+{
+  "name": "resizable-element",
+  "version": "1.0.0",
+  "description": "You can use this package to make your elements resizable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeiMeng1998/resizable-element.git"
+  },
+  "keywords": [
+    "resiable",
+    "vue",
+    "react",
+    "angular",
+    "js"
+  ],
+  "author": "beimeng1998",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeiMeng1998/resizable-element/issues"
+  },
+  "homepage": "https://github.com/BeiMeng1998/resizable-element#readme"
+}
