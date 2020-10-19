@@ -1,7 +1,8 @@
 const createResizableElements = () => {
     const resizeBoxRight = document.getElementsByClassName('resize-right')
     for (let i = 0; i < resizeBoxRight.length; i++) {
-        if (!window.getComputedStyle(resizeBoxRight[i]).position) {
+        const position = window.getComputedStyle(resizeBoxRight[i]).position
+        if (!position || position === 'static') {
             resizeBoxRight[i].style.position = 'relative'
         }
         const rightHotArea = document.createElement('div')
@@ -37,7 +38,8 @@ const createResizableElements = () => {
 
     const resizeBoxLeft = document.getElementsByClassName('resize-left')
     for (let i = 0; i < resizeBoxLeft.length; i++) {
-        if (!window.getComputedStyle(resizeBoxLeft[i]).position) {
+        const position = window.getComputedStyle(resizeBoxLeft[i]).position
+        if (!position || position === 'static') {
             resizeBoxLeft[i].style.position = 'relative' 
         }
         const leftHotArea = document.createElement('div')
@@ -73,7 +75,8 @@ const createResizableElements = () => {
 
     const resizeBoxTop = document.getElementsByClassName('resize-top')
     for (let i = 0; i < resizeBoxTop.length; i++) {
-        if (!window.getComputedStyle(resizeBoxTop[i]).position) {
+        const position = window.getComputedStyle(resizeBoxTop[i]).position
+        if (!position || position === 'static') {
             resizeBoxTop[i].style.position = 'relative'
         }
         const topHotArea = document.createElement('div')
@@ -108,7 +111,8 @@ const createResizableElements = () => {
 
     const resizeBoxBottom = document.getElementsByClassName('resize-bottom')
     for (let i = 0; i < resizeBoxBottom.length; i++) {
-        if (!window.getComputedStyle(resizeBoxBottom[i]).position) {
+        const position = window.getComputedStyle(resizeBoxBottom[i]).position
+        if (!position || position === 'static') {
             resizeBoxBottom[i].style.position = 'relative'
         }
         const bottomHotArea = document.createElement('div')
