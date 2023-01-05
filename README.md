@@ -8,6 +8,7 @@ npm install resizable-element
 ```
 
 ## Example
+https://wkv1kf.csb.app/
 ```
 import createResizableElements from 'resizable-element'
 
