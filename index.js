@@ -28,10 +28,13 @@ const createResizableElements = () => {
                     rightHotArea.parentNode.style.width = rightHotArea.parentNode.clientWidth + xLength + 'px'
                     tempX = endX
                 }
+                return false
             }
+            return false
         }
         document.onmouseup = () => {
             document.onmousemove = null
+            return false
         }
         resizeBoxRight[i].appendChild(rightHotArea)
     }
@@ -65,10 +68,13 @@ const createResizableElements = () => {
                     leftHotArea.parentNode.style.width = leftHotArea.parentNode.clientWidth + xLength + 'px'
                     tempX = endX
                 }
+                return false
             }
+            return false
         }
         document.onmouseup = () => {
             document.onmousemove = null
+            return false
         }
         resizeBoxLeft[i].appendChild(leftHotArea)
     }
@@ -101,10 +107,13 @@ const createResizableElements = () => {
                     topHotArea.parentNode.style.height = topHotArea.parentNode.clientHeight + yLength + 'px'
                     tempY = endY
                 }
+                return false
             }
+            return false
         }
         document.onmouseup = () => {
             document.onmousemove = null
+            return false
         }
         resizeBoxTop[i].appendChild(topHotArea)
     }
@@ -137,10 +146,13 @@ const createResizableElements = () => {
                     bottomHotArea.parentNode.style.height = bottomHotArea.parentNode.clientHeight + yLength + 'px'
                     tempY = endY
                 }
+                return false
             }
+            return false
         }
         document.onmouseup = () => {
             document.onmousemove = null
+            return false
         }
         resizeBoxBottom[i].appendChild(bottomHotArea)
     }
