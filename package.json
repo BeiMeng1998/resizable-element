@@ -1,6 +1,6 @@
 {
   "name": "resizable-element",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "You can use this package to make your elements resizable",
   "main": "index.js",
   "scripts": {
